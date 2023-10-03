@@ -20,8 +20,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 body { 
   font: normal .85em arial, sans-serif;
-  background: #222 url(../images/pattern.png);
-  color: #BBB;
+  background: #F5F5F5 url(../images/pattern.png);
+  color: #444;
   padding-bottom: 40px;
 }
 
@@ -36,14 +36,18 @@ img {
 
 h1, h2, h3, h4, h5, h6 { 
   font: normal 200% 'News Cycle', arial, sans-serif;
-  color: #FFF;
+  color: #222;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
 }
 
+h1 { 
+  text-shadow: 1px 1px #FFF;
+}
+
 h2 { 
   font: normal 170% 'News Cycle', arial, sans-serif;
-  color: #BBB;  
+  color: #666;  
   margin: 0;
   padding: 0 0 8px 0;
 }
@@ -56,7 +60,7 @@ h4, h5, h6 {
   margin: 0;
   padding: 0 0 5px 0;
   font: normal 110% arial, sans-serif;
-  color: #BBB;
+  color: #999;
   line-height: 1.5em;
 }
 
@@ -73,12 +77,12 @@ h6 {
 a, a:hover { 
   outline: none;
   text-decoration: none;
-  color: #38B9E8;
+  color: #00B7EC;
 }
 
 a:hover { 
   text-decoration: underline;
-  color: #38B9E8;
+  color: #00B7EC;
 }
 
 ul { 
@@ -125,7 +129,7 @@ header {
 #logo h1 { 
   font: normal 330% 'News Cycle', arial, sans-serif;
   padding: 37px 0 0 17px;
-  color: #FFF;
+  color: #222;
   letter-spacing: -2px;
 }
 
@@ -135,7 +139,7 @@ header {
 }
 
 #logo h1 a:hover { 
-  color: #FFF;
+  color: #222;
   text-decoration: none;
 }
 
@@ -152,7 +156,7 @@ nav {
   overflow: hidden;
   margin: 4px auto 0 auto;
   padding: 0;
-  background: #333;
+  background: #eee;
   border-top: 0;
   border-bottom: 0;
 } 
@@ -178,7 +182,7 @@ nav {
 
 #content ul li { 
   list-style-type: none;
-  background: url(../images/bullet.png) no-repeat left center;
+  background: transparent url(../images/bullet.png) no-repeat left center;
   margin: 0 0 0 0; 
   padding: 2px 0 2px 28px;
   line-height: 1.5em;
@@ -219,12 +223,12 @@ nav {
 
 footer { 
   width: 950px;
-  font: normal 140% 'News Cycle',  arial, sans-serif;
+  font: normal 130% 'News Cycle',  arial, sans-serif;
   height: 90px;
   padding: 20px 0 5px 0;
   text-align: center; 
-  color: #FFF;
-  background: #444;
+  color: #222;
+  background: #D4D4D4;
 }
 
 footer p { 
@@ -232,7 +236,7 @@ footer p {
 }
 
 footer a, footer a:hover { 
-  color: #FFF;
+  color: #222;
   text-decoration: none;
 }
 
@@ -262,7 +266,7 @@ footer a:hover {
   width: 252px; 
   font: 100% arial, sans-serif;
   border: 0;
-  border-bottom: 1px solid #DDD; 
+  border-bottom: 1px solid #666; 
   background: transparent;
 }
   
@@ -285,7 +289,7 @@ footer a:hover {
 
 .form_settings textarea, .form_settings select { 
   font: 100% 'trebuchet ms', arial, sans-serif; 
-  border: 1px solid #DDD; 
+  border: 1px solid #666; 
   border-radius: 6px 6px 6px 6px;
   -webkit-border-radius: 6px 6px 6px 6px;
   -moz-border-radius: 6px 6px 6px 6px;
@@ -349,7 +353,7 @@ ul img {
 }
 
 .lavaLampWithImage li.back {
-  background: #444;
+  background: #DDD;
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
@@ -360,9 +364,9 @@ ul img {
 
 .lavaLampWithImage li a {
   font: normal 130% 'News Cycle', sans-serif;
-  text-shadow:1px 1px #000;
+  text-shadow:1px 1px #FFF;
   text-decoration: none;
-  color: #fff;
+  color: #222;
   outline: none;
   text-align: center;
   letter-spacing: 0;
